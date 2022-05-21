@@ -1,0 +1,10 @@
+name: 'Setup JFrog (npm)'
+description: 'Authenticate with an npm repository on JFrog Artifactory'
+inputs:
+  registry-url:
+    description: 'The URL of the registry to authenticate with'
+    required: true
+outputs: {}
+runs:
+  using: 'node16'
+  main: 'index.js'
